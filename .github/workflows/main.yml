@@ -30,6 +30,6 @@ jobs:
     - name: Installing surge
       run: sudo npm install --global surge
     - name: deployeing using surge
-      run: surge ./letgoonline.surge.sh --token $ {{ secrets.SURGE_SECRET }}
+      run: surge./letgoonline.surge.sh --token $ {{ secrets.SURGE_SECRET }}
     
    
