@@ -28,7 +28,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Installing surge
-      run: npm install --global surge
+      run: sudo npm install --global surge
     - name: deployeing using surge
       run: surge ./letgoonline.surge.sh --token $ {{ secrets.SURGE_SECRET }}
     
